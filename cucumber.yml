@@ -1,0 +1,10 @@
+##yaml templatess
+---
+  
+default: --profile pretty -p homolog -p chrome -p html
+pretty: --format pretty
+homolog: Ambiente=homolog
+production: Ambiente=producao
+chrome: BROWSERS=chrome
+
+html: --format html --out=reports/relatorio.html
