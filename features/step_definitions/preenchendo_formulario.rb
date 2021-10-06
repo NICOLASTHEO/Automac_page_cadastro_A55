@@ -13,7 +13,7 @@ Quando('preencho o formulário corretamente') do
     fill_in(name:'amount_deal', with: "10000.00") # valor do empréstimo que gostaria de realizar
     find(class:'el-checkbox__inner').click
     click_on(class:'el-button el-button--primary')
-    sleep(4)
+    sleep(7)
 end
 
 Então('verifico se obtive sucesso') do
